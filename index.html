@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Airbnb Data Analysis Dashboard</title>
+  
+  <!-- Google Fonts Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Dashboard</h2>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Overview</a></li>
+        <li><a href="#">Listings</a></li>
+        <li><a href="#">Prices</a></li>
+        <li><a href="#">Reviews</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <header>
+      <h1>🏠 Airbnb Data Analysis Dashboard</h1>
+      <p>Visual insights from Airbnb listing data</p>
+    </header>
+
+    <section class="filter-bar">
+      <input type="search" placeholder="Search neighbourhood..." />
+      <select>
+        <option selected>All room types</option>
+        <option>Entire home/apt</option>
+        <option>Private room</option>
+        <option>Shared room</option>
+      </select>
+    </section>
+
+    <!-- Metrics Section -->
+    <section class="metrics">
+      <div class="card">
+        <h2>Total Listings</h2>
+        <p>13,542</p>
+      </div>
+      <div class="card">
+        <h2>Avg. Price (USD)</h2>
+        <p>$128</p>
+      </div>
+      <div class="card">
+        <h2>Most Common Room Type</h2>
+        <p>Entire home/apt</p>
+      </div>
+    </section>
+
+    <!-- Charts Grid Section -->
+    <section class="charts">
+      <div class="chart-box">
+        <h2>Top Neighbourhoods by Listings</h2>
+        <img src="assets/top_neighbourhoods.png" alt="Top Neighbourhoods" />
+      </div>
+
+      <div class="chart-box">
+        <h2>Price Distribution</h2>
+        <img src="assets/price_distributions.png" alt="Price Distribution" />
+      </div>
+
+      <div class="chart-box">
+        <h2>Neighbourhood Listings</h2>
+        <img src="assets/neighbourhood_listings.png" alt="Neighbourhood Listings" />
+      </div>
+
+      <div class="chart-box">
+        <h2>Correlation Heatmap</h2>
+        <img src="assets/correlation_price_room.png" alt="Correlation Heatmap" />
+      </div>
+
+      <div class="chart-box">
+        <h2>Reviews Over Time</h2>
+        <img src="assets/reviews_time.png" alt="Reviews Over Time" />
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Tapan Padhi. Airbnb Data Analysis using Python.</p>
+    </footer>
+  </main>
+</body>
+</html>
