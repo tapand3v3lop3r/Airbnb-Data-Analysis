@@ -30,7 +30,6 @@ An in-depth data analysis project on Airbnb listings to uncover trends in pricin
 
 ## 📸 Screenshot
 
-> *(Upload your notebook output image or graphs to the `assets/` folder and use the reference below)*  
 ![Analysis Screenshot](Dashboard_web_screenshot.png)
 
 ---
