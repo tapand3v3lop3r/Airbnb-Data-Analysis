@@ -1,6 +1,6 @@
 # 📊 Airbnb Data Analysis – Exploratory Data Insights
 
-An in-depth data analysis project on Airbnb listings to uncover trends in pricing, location, availability, and other features. This project uses Python and Jupyter Notebook to deliver actionable insights through data cleaning, visualizations, and statistics.
+An in-depth data analysis project on Airbnb listings to uncover trends in pricing, location, availability, and other features. This project uses Python and Jupyter Notebook to deliver actionable insights through data cleaning, visualizations, and statistics. The visualisation is also shown in a simple web dashboard (static dashboard).
 
 ---
 
