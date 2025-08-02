@@ -31,13 +31,13 @@ An in-depth data analysis project on Airbnb listings to uncover trends in pricin
 ## 📸 Screenshot
 
 > *(Upload your notebook output image or graphs to the `assets/` folder and use the reference below)*  
-![Analysis Screenshot](assets/airbnb_eda_overview.png)
+![Analysis Screenshot](Dashboard_web_screenshot.png)
 
 ---
 
 ## 🔽 Download the Notebook
 
-👉 [Click here to download the Airbnb analysis notebook](link-to-your-notebook)
+👉 [Click here to download the Airbnb analysis notebook](https://github.com/tapand3v3lop3r/Airbnb-Data-Analysis/blob/main/airbnb_project.ipynb)
 
 ---
 
